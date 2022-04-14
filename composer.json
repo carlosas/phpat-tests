@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/phpat-tests",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "carlosalandete",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "webmozart/assert": "^1.10"
+  },
+  "require-dev": {
+    "phpat/phpat": "0.8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SomeNamespace\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SomeNamespace\\Tests\\": "tests/"
+    }
+  }
+}
